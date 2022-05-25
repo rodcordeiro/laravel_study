@@ -20,5 +20,5 @@ services:
         volumes:
             - ./src:/var/www/laravel_study
             - ./apache/default.conf:/etc/apache2/sites-enabled/000-default.conf
-        depends_on:
-            - database
+        # depends_on:
+        #     - database
